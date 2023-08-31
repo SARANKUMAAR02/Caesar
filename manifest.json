@@ -1,0 +1,22 @@
+{
+    "name": "Caesar Cipher",
+    "short_name": "Caesar Cipher",
+    "description": "Encyption using Caesar Cipher",
+    "icons": [
+      {
+        "src": "Images/32mf.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+    
+      {
+        "src": "Images/512mf.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "index.html",
+    "display": "fullscreen",
+    "theme_color": "#191D88",
+    "background_color": "#F6F4EB"
+  }

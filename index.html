@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="shortcut icon" href="./Images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="inp-container">
+            <h1>Caesar Cipher</h1>
+            <input type="text" class="textInput" id="text-ec" placeholder="Enter The Text">
+            <input type="text" class="textInput" id="key-ec" placeholder="Enter The Key">
+            <div class="buttons">
+            <button id="encryptButton">Encrypt</button>
+            <button id="decryptButton">Decrypt</button>
+            </div>
+        </div>
+        <div id="results" class="output-container">
+            <p><span id="cp-title"></span><span id="cp-plain"></span></p>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

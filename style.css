@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif ;
+}
+
+body{
+    background-color: #3d7ff9;
+}
+
+.wrapper{
+    position: absolute;
+    width: 31.25em;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+
+.inp-container{
+    background-color: #010f2a;
+    border-radius: 0.5em;
+    padding: 4em 2em;
+}
+
+h1{
+    text-align: center;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+
+input{
+        resize: none;
+        width: 100%;
+        border: none;
+        padding: 1em;
+        display: flex;
+        border-radius: 0.5em;
+        background-color: rgba(255, 255, 255, 0.1);
+        flex-direction: column;
+        margin-top: 1em;
+        outline: none;
+        color: #ffffff;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1.5em;
+}
+
+#encryptButton , #decryptButton{
+    color: #ffffff;
+    width: 40%;
+    background-color: #3d7ff9;
+    border-radius: 0.5em;
+    position: relative;
+    padding: 1.5em 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#results{
+    width: 120%;
+    position: relative;
+    right: 10%;
+    background-color: #ffffff;
+    margin-top: -8em;
+    z-index: -1;
+    padding: 10em 2em 3em 2em;
+    border-radius: 0.5em;
+}
+
+.output-container{
+    text-align: center;
+    font-weight: 500;
+}
+
+.output-container #cp-title {
+    font-weight: 400;
+}
+
+.output-container #cp-plain{
+    margin-left: 0.3em;
+    font-weight: 600;   
+}
+
+
+
+@media (max-width:500px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .wrapper{
+
+        width: 90%;
+
+    }
+    .output-container span{
+        display: block;
+    }
+    
+}
